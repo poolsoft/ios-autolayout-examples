@@ -1,0 +1,6 @@
+framework module Pods_ios_autoLayout_examplesSnapshotTests {
+  umbrella header "Pods-ios-autoLayout-examplesSnapshotTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
