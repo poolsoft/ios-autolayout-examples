@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NjL-xP-gBq">
+                    <rect key="frame" x="0.0" y="283.5" width="375" height="100"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="I am the very model of a modern major G" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTu-xe-Gzr">
+                            <rect key="frame" x="10" y="40" width="311" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAE-Jz-2kg">
+                            <rect key="frame" x="331" y="34.5" width="34" height="30"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="uTu-xe-Gzr" firstAttribute="centerY" secondItem="NjL-xP-gBq" secondAttribute="centerY" id="9oa-qi-tQC"/>
+                        <constraint firstItem="uTu-xe-Gzr" firstAttribute="leading" secondItem="NjL-xP-gBq" secondAttribute="leading" constant="10" id="GoB-Cu-T6U"/>
+                        <constraint firstAttribute="trailing" secondItem="GAE-Jz-2kg" secondAttribute="trailing" constant="10" id="TPd-le-Vyk"/>
+                        <constraint firstItem="GAE-Jz-2kg" firstAttribute="leading" secondItem="uTu-xe-Gzr" secondAttribute="trailing" constant="10" id="ULt-0o-fuZ"/>
+                        <constraint firstAttribute="height" constant="100" id="Vax-Mx-8Ld"/>
+                        <constraint firstItem="GAE-Jz-2kg" firstAttribute="centerY" secondItem="NjL-xP-gBq" secondAttribute="centerY" id="j0q-vd-bPA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NjL-xP-gBq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IM5-gc-a1B"/>
+                <constraint firstAttribute="trailing" secondItem="NjL-xP-gBq" secondAttribute="trailing" id="OCN-aZ-BIe"/>
+                <constraint firstItem="NjL-xP-gBq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xTf-yK-kh4"/>
+            </constraints>
+            <point key="canvasLocation" x="57.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

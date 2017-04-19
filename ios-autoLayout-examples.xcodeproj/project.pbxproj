@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65D64EAE1EA6E3C000BA07C5 /* Example-1-SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D64EAD1EA6E3C000BA07C5 /* Example-1-SnapshotTests.swift */; };
+		65D64EB01EA6E40A00BA07C5 /* NibLoadingSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D64EAF1EA6E40A00BA07C5 /* NibLoadingSnapshotTest.swift */; };
+		65D64EB21EA6E95400BA07C5 /* example_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D64EB11EA6E95400BA07C5 /* example_1.xib */; };
+		65D64EB41EA6EA4200BA07C5 /* Example-2-SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D64EB31EA6EA4200BA07C5 /* Example-2-SnapshotTests.swift */; };
+		65D64EB61EA6EA6F00BA07C5 /* Example-3-SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D64EB51EA6EA6F00BA07C5 /* Example-3-SnapshotTests.swift */; };
+		65D64EB81EA6EA9000BA07C5 /* Example-4-SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D64EB71EA6EA9000BA07C5 /* Example-4-SnapshotTests.swift */; };
+		65D64EBA1EA6EAB300BA07C5 /* Example-5-SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D64EB91EA6EAB300BA07C5 /* Example-5-SnapshotTests.swift */; };
+		65D64EBC1EA6EAD200BA07C5 /* Example-6-SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D64EBB1EA6EAD200BA07C5 /* Example-6-SnapshotTests.swift */; };
+		65D64EBE1EA6EAF200BA07C5 /* example_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D64EBD1EA6EAF200BA07C5 /* example_3.xib */; };
+		65D64EC01EA6EAFD00BA07C5 /* example_4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D64EBF1EA6EAFD00BA07C5 /* example_4.xib */; };
+		65D64EC21EA6EB0700BA07C5 /* example_6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D64EC11EA6EB0700BA07C5 /* example_6.xib */; };
+		65D64EC41EA6EB1500BA07C5 /* example_5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D64EC31EA6EB1500BA07C5 /* example_5.xib */; };
 		65D65D791EA6B13300A099E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D65D781EA6B13300A099E5 /* AppDelegate.swift */; };
 		65D65D7B1EA6B13300A099E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D65D7A1EA6B13300A099E5 /* ViewController.swift */; };
 		65D65D801EA6B13300A099E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D65D7F1EA6B13300A099E5 /* Assets.xcassets */; };
 		65D65D831EA6B13300A099E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D65D811EA6B13300A099E5 /* LaunchScreen.storyboard */; };
 		65D65D8E1EA6B13300A099E5 /* ios_autoLayout_examplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D65D8D1EA6B13300A099E5 /* ios_autoLayout_examplesTests.swift */; };
-		65D65D9F1EA6B26500A099E5 /* ios_autoLayout_examplesSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D65D9E1EA6B26500A099E5 /* ios_autoLayout_examplesSnapshotTests.swift */; };
-		65D65DA81EA6B36B00A099E5 /* example-1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D65DA71EA6B36B00A099E5 /* example-1.xib */; };
+		65D65DA81EA6B36B00A099E5 /* example_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D65DA71EA6B36B00A099E5 /* example_2.xib */; };
 		69573A11BA67408628061E63 /* Pods_ios_autoLayout_examplesSnapshotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4076C0AF228E86ED91795EB /* Pods_ios_autoLayout_examplesSnapshotTests.framework */; };
 		CF7998EB3ABC3C43FC565169 /* Pods_ios_autoLayout_examples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA76D4E173736D9AD10C0F2 /* Pods_ios_autoLayout_examples.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +48,19 @@
 
 /* Begin PBXFileReference section */
 		2EF82B84304D5D3ECED3CFFC /* Pods-ios-autoLayout-examples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-autoLayout-examples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-autoLayout-examples/Pods-ios-autoLayout-examples.debug.xcconfig"; sourceTree = "<group>"; };
+		65D64EAC1EA6E3C000BA07C5 /* ios-autoLayout-examplesSnapshotTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-autoLayout-examplesSnapshotTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		65D64EAD1EA6E3C000BA07C5 /* Example-1-SnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Example-1-SnapshotTests.swift"; sourceTree = "<group>"; };
+		65D64EAF1EA6E40A00BA07C5 /* NibLoadingSnapshotTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingSnapshotTest.swift; sourceTree = "<group>"; };
+		65D64EB11EA6E95400BA07C5 /* example_1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = example_1.xib; sourceTree = "<group>"; };
+		65D64EB31EA6EA4200BA07C5 /* Example-2-SnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Example-2-SnapshotTests.swift"; sourceTree = "<group>"; };
+		65D64EB51EA6EA6F00BA07C5 /* Example-3-SnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Example-3-SnapshotTests.swift"; sourceTree = "<group>"; };
+		65D64EB71EA6EA9000BA07C5 /* Example-4-SnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Example-4-SnapshotTests.swift"; sourceTree = "<group>"; };
+		65D64EB91EA6EAB300BA07C5 /* Example-5-SnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Example-5-SnapshotTests.swift"; sourceTree = "<group>"; };
+		65D64EBB1EA6EAD200BA07C5 /* Example-6-SnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Example-6-SnapshotTests.swift"; sourceTree = "<group>"; };
+		65D64EBD1EA6EAF200BA07C5 /* example_3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = example_3.xib; sourceTree = "<group>"; };
+		65D64EBF1EA6EAFD00BA07C5 /* example_4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = example_4.xib; sourceTree = "<group>"; };
+		65D64EC11EA6EB0700BA07C5 /* example_6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = example_6.xib; sourceTree = "<group>"; };
+		65D64EC31EA6EB1500BA07C5 /* example_5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = example_5.xib; sourceTree = "<group>"; };
 		65D65D751EA6B13300A099E5 /* ios-autoLayout-examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-autoLayout-examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D65D781EA6B13300A099E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D65D7A1EA6B13300A099E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,9 +71,8 @@
 		65D65D8D1EA6B13300A099E5 /* ios_autoLayout_examplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_autoLayout_examplesTests.swift; sourceTree = "<group>"; };
 		65D65D8F1EA6B13300A099E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D65D9C1EA6B26400A099E5 /* ios-autoLayout-examplesSnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-autoLayout-examplesSnapshotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D65D9E1EA6B26500A099E5 /* ios_autoLayout_examplesSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_autoLayout_examplesSnapshotTests.swift; sourceTree = "<group>"; };
 		65D65DA01EA6B26500A099E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D65DA71EA6B36B00A099E5 /* example-1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "example-1.xib"; sourceTree = "<group>"; };
+		65D65DA71EA6B36B00A099E5 /* example_2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = example_2.xib; sourceTree = "<group>"; };
 		7DA8870BE1A0C5E89352C132 /* Pods-ios-autoLayout-examples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-autoLayout-examples.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-autoLayout-examples/Pods-ios-autoLayout-examples.release.xcconfig"; sourceTree = "<group>"; };
 		8AA76D4E173736D9AD10C0F2 /* Pods_ios_autoLayout_examples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_autoLayout_examples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB78FDBA831514F826C7922 /* Pods-ios-autoLayout-examplesSnapshotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-autoLayout-examplesSnapshotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-autoLayout-examplesSnapshotTests/Pods-ios-autoLayout-examplesSnapshotTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,8 +174,15 @@
 		65D65D9D1EA6B26500A099E5 /* ios-autoLayout-examplesSnapshotTests */ = {
 			isa = PBXGroup;
 			children = (
-				65D65D9E1EA6B26500A099E5 /* ios_autoLayout_examplesSnapshotTests.swift */,
+				65D64EAC1EA6E3C000BA07C5 /* ios-autoLayout-examplesSnapshotTests-Bridging-Header.h */,
 				65D65DA01EA6B26500A099E5 /* Info.plist */,
+				65D64EAF1EA6E40A00BA07C5 /* NibLoadingSnapshotTest.swift */,
+				65D64EAD1EA6E3C000BA07C5 /* Example-1-SnapshotTests.swift */,
+				65D64EB31EA6EA4200BA07C5 /* Example-2-SnapshotTests.swift */,
+				65D64EB51EA6EA6F00BA07C5 /* Example-3-SnapshotTests.swift */,
+				65D64EB71EA6EA9000BA07C5 /* Example-4-SnapshotTests.swift */,
+				65D64EB91EA6EAB300BA07C5 /* Example-5-SnapshotTests.swift */,
+				65D64EBB1EA6EAD200BA07C5 /* Example-6-SnapshotTests.swift */,
 			);
 			path = "ios-autoLayout-examplesSnapshotTests";
 			sourceTree = "<group>";
@@ -160,7 +190,12 @@
 		65D65DA61EA6B35700A099E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				65D65DA71EA6B36B00A099E5 /* example-1.xib */,
+				65D64EB11EA6E95400BA07C5 /* example_1.xib */,
+				65D65DA71EA6B36B00A099E5 /* example_2.xib */,
+				65D64EBD1EA6EAF200BA07C5 /* example_3.xib */,
+				65D64EBF1EA6EAFD00BA07C5 /* example_4.xib */,
+				65D64EC31EA6EB1500BA07C5 /* example_5.xib */,
+				65D64EC11EA6EB0700BA07C5 /* example_6.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -251,6 +286,7 @@
 					65D65D9B1EA6B26400A099E5 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 3C29DJ86C6;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 65D65D741EA6B13300A099E5;
 					};
@@ -281,9 +317,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D65DA81EA6B36B00A099E5 /* example-1.xib in Resources */,
+				65D64EBE1EA6EAF200BA07C5 /* example_3.xib in Resources */,
+				65D65DA81EA6B36B00A099E5 /* example_2.xib in Resources */,
 				65D65D831EA6B13300A099E5 /* LaunchScreen.storyboard in Resources */,
+				65D64EC01EA6EAFD00BA07C5 /* example_4.xib in Resources */,
+				65D64EC21EA6EB0700BA07C5 /* example_6.xib in Resources */,
 				65D65D801EA6B13300A099E5 /* Assets.xcassets in Resources */,
+				65D64EB21EA6E95400BA07C5 /* example_1.xib in Resources */,
+				65D64EC41EA6EB1500BA07C5 /* example_5.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +459,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D65D9F1EA6B26500A099E5 /* ios_autoLayout_examplesSnapshotTests.swift in Sources */,
+				65D64EB61EA6EA6F00BA07C5 /* Example-3-SnapshotTests.swift in Sources */,
+				65D64EB41EA6EA4200BA07C5 /* Example-2-SnapshotTests.swift in Sources */,
+				65D64EBA1EA6EAB300BA07C5 /* Example-5-SnapshotTests.swift in Sources */,
+				65D64EB01EA6E40A00BA07C5 /* NibLoadingSnapshotTest.swift in Sources */,
+				65D64EBC1EA6EAD200BA07C5 /* Example-6-SnapshotTests.swift in Sources */,
+				65D64EAE1EA6E3C000BA07C5 /* Example-1-SnapshotTests.swift in Sources */,
+				65D64EB81EA6EA9000BA07C5 /* Example-4-SnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,11 +652,14 @@
 			baseConfigurationReference = BAB78FDBA831514F826C7922 /* Pods-ios-autoLayout-examplesSnapshotTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3C29DJ86C6;
 				INFOPLIST_FILE = "ios-autoLayout-examplesSnapshotTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TWG.ios-autoLayout-examplesSnapshotTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-autoLayout-examplesSnapshotTests/ios-autoLayout-examplesSnapshotTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-autoLayout-examples.app/ios-autoLayout-examples";
 			};
@@ -620,11 +670,13 @@
 			baseConfigurationReference = E176AD654D9BA44EEE6F81B7 /* Pods-ios-autoLayout-examplesSnapshotTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3C29DJ86C6;
 				INFOPLIST_FILE = "ios-autoLayout-examplesSnapshotTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TWG.ios-autoLayout-examplesSnapshotTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-autoLayout-examplesSnapshotTests/ios-autoLayout-examplesSnapshotTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-autoLayout-examples.app/ios-autoLayout-examples";
 			};
